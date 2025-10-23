@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+/* Custom spin speed */
+@keyframes slow-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-slow-spin {
+  animation: slow-spin var(--spin-speed, 12s) linear infinite;
+}
+
+@layer utilities {
+  @keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 1s ease forwards;
+  }
+
+  .animate-fade-in-delay-1 {
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.3s;
+  }
+
+  .animate-fade-in-delay-2 {
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.6s;
+  }
+
+  .animate-fade-in-delay-3 {
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 0.9s;
+  }
+
+  .animate-fade-in-delay-4 {
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 1.2s;
+  }
+
+  .animate-fade-in-delay-5 {
+    animation: fadeIn 1s ease forwards;
+    animation-delay: 1.5s;
+  }
+}

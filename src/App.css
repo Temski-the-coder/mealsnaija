@@ -1,0 +1,84 @@
+
+
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Righteous&display=swap');
+
+
+/*=============== VARIABLES CSS ===============*/
+:root{
+/*========== Colors ==========*/
+--hue: 271;
+--first-color: hsl(37, 89%, 64%);
+--second-color: hsl(14, 100%, 58%);
+/*========== Font family ==========*/
+--body-font: "Righteous", sans-serif;
+--second-font: "Fleur De Leah", cursive;
+/*========== Font sizes ==========*/
+
+/*========== Font weight ==========*/
+--weight-400: 400;
+}
+
+/* Responsive typography */
+
+
+/*=============== BASE ===============*/
+* {
+    margin: auto;
+    box-sizing: border-box;
+}
+
+input,
+textarea,
+button,
+body {
+    font-family: var(--body-font);
+    font-weight: var(--weight-400)
+}
+
+h1,
+h2,
+h3 {
+    font-weight: var(--weight-400);
+    line-height: 1.2;
+}
+
+p {
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+/*=============== REUSABLE CSS CLASSES ===============*/
+
+
+/*=============== LAYOUT ===============*/
+
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 1208px) {}
+
+/* For medium devices */
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {}
+
+/* For small devices */
+@media screen and (max-width: 576px) {}
+
+@media screen and (max-width: 460px) {}
