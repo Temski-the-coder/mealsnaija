@@ -21,14 +21,14 @@ const PageLayout = () => {
       <section className="relative pt-25 md:pt-0">
         <Home />
         {/* Reservation floats over hero */}
-        <div className="absolute left-1/2 -translate-x-1/2 bottom-[-10rem] md:bottom-[-7rem] z-30 w-full max-w-3xl px-4">
+        <div className="absolute left-1/2 -translate-x-1/2 bottom-[-10rem] md:bottom-[-7rem] z-30 w-full max-w-3xl px-4 top-210 md:top-145">
           <Reservation />
         </div>
       </section>
 
       {/* Features and the rest spaced evenly */}
       <main className="flex flex-col space-y-40">
-        <section className="pt-35 md:pt-25">
+        <section className="pt-95 md:pt-25">
         <Features />
         </section>
 

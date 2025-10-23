@@ -84,7 +84,7 @@ const ReservationForm = () => {
             </select>
           </div>
 
-          <button type="submit" className="reserve-button text-white w-[400px] py-2 rounded">Book Now</button>
+          <button type="submit" className="reserve-button text-white w-[200px] md:w-[400px] py-2 rounded">Book Now</button>
         </form>
       </div>
     </section>

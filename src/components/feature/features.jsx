@@ -40,11 +40,11 @@ const Features = () => {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 mx-auto">
         {features.map((feature, index) => (
           <div
             key={index}
-            className="relative bg-[#fff7ee] border border-orange-100 rounded-3xl shadow-md p-8 text-center hover:-translate-y-2 transition-transform duration-300 top-2"
+            className="relative bg-[#fff7ee] border border-orange-100 rounded-3xl shadow-md p-3 md:p-8 text-center hover:-translate-y-2 transition-transform duration-300 top-11 md:top-2 mx-auto"
           >
             {/* Icon bubble */}
             <div className="absolute -top-8 left-1/2 -translate-x-1/2 bg-orange-500 text-white w-10 h-10 flex items-center justify-center rounded-full shadow-lg">
