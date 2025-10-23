@@ -30,13 +30,13 @@ const Home = () => {
       >
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {/* text content section */}
-            <div className="flex flex-col md:flex-col justify-center gap-4 pt-0 md:pt-12 text-left md:text-center order-2 md:order-1">
+            <div className="flex flex-col md:flex-col justify-center gap-4 pt-0 md:pt-12 text-center md:text-center order-2 md:order-1">
               <h1
-                className="mx-auto text-white text-2xl sm:text-2xl md:text-5xl font-bold animate-fade-in"
+                className="mx-auto text-2xl sm:text-2xl md:text-5xl font-bold animate-fade-in text-gray-500 md:text-white"
               >
                 Welome to MealsNaija By Chef Ayi
               </h1>
-              <p className="text-sm sm:text-sm md:text-sm text-white max-w-md md:max-w-[400px] animate-fade-in-delay-1">
+              <p className="text-sm sm:text-sm md:text-sm text-gray-700 md:text-white max-w-md md:max-w-[400px] animate-fade-in-delay-1">
                 At MealsNaija by Chef Ayi, we craft unforgettable dining
                 experiences that blend rich Nigerian flavors with global
                 inspiration, From private chef services to luxury dining setups,
