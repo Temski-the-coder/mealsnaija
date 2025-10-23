@@ -33,7 +33,7 @@ const testimonialsData = [
 
 const Testimonials = () => {
   return (
-    <section id="reviews" className="py-16 px-4 sm:px-6 max-w-[300px] md:max-w-7xl mx-auto">
+    <section id="reviews" className="py-16 px-4 sm:px-6 max-w-[300px] md:max-w-[500px] lg:max-w-6xl mx-auto">
       {/* HEADER */}
       <div className="text-center mb-10">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3">

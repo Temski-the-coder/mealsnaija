@@ -8,8 +8,8 @@ import { useState } from "react";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <header className="fixed top-0 left-0 w-full z-50 bg-transparent backdrop-blur-sm">
-      <nav className="flex items-center justify-around px-4 md:px-8 py-3 max-w-7xl mx-auto">
+    <header className="top-0 left-0 w-full z-50">
+      <nav className="flex items-center justify-around px-4 md:px-8 py-3 max-w-6xl mx-auto">
         <a href="/" className="flex items-center">
           <img src={Logo} alt="MealsNaija" className="h-16 w-16 md:h-20 md:w-20" />
         </a>

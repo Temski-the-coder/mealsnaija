@@ -30,13 +30,13 @@ const Home = () => {
       >
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             {/* text content section */}
-            <div className="flex flex-col md:flex-col justify-center gap-4 pt-0 md:pt-12 text-center md:text-center order-2 md:order-1">
+            <div className="flex flex-col md:flex-col justify-center gap-4 pt-0 md:pt-0 text-center md:text-center order-2 md:order-1">
               <h1
-                className="mx-auto text-2xl sm:text-2xl md:text-5xl font-bold animate-fade-in text-gray-500 md:text-white"
+                className="mx-auto text-2xl sm:text-2xl md:text-5xl font-bold animate-fade-in text-gray-100 md:text-white"
               >
-                Welome to MealsNaija By Chef Ayi
+                Welome to <span className="text-orange-500">MealsNaija By Chef Ayi</span>
               </h1>
-              <p className="text-sm sm:text-sm md:text-sm text-gray-700 md:text-white max-w-md md:max-w-[400px] animate-fade-in-delay-1">
+              <p className="text-sm sm:text-sm md:text-sm text-gray-700 md:text-gray-700 max-w-md md:max-w-[500px] animate-fade-in-delay-1 font-serif font-bold">
                 At MealsNaija by Chef Ayi, we craft unforgettable dining
                 experiences that blend rich Nigerian flavors with global
                 inspiration, From private chef services to luxury dining setups,
@@ -78,12 +78,12 @@ const Home = () => {
                 />
               </div>
               {/* main image */}
-              <div className="flex md:flex-col lg:flex-col md:top-1/2 lg:top-1/2 md:-translate-y-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute bottom-[0px] lg:-right-10 rounded-full animate-fade-in-delay-4">
+              <div className="flex md:flex-col lg:flex-col top-4/5 md:top-1/2 lg:top-1/2 md:-right-4 md:-translate-y-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute bottom-[0px] lg:-right-10 rounded-full animate-fade-in-delay-4">
                 {ImageList.map((item) => (
                   <img
                     key={item.id}
                     src={item.image}
-                    className="w-[60px] h-[60px] sm:w-[70px] sm:h-[70px] object-contain inline-block hover:scale-105 rounded-full cursor-pointer animate-slow-spin duration-200" onClick={() => {
+                    className="w-[100px] h-[70px] sm:w-[70px] sm:h-[70px] object-contain inline-block hover:scale-105 rounded-full cursor-pointer animate-slow-spin duration-200" onClick={() => {
                       setImageId(
                         item.id === 1 ? 
                         menuImg1 : item.id === 2 ? menuImg2 : menuImg3
