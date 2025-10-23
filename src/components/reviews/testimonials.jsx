@@ -46,11 +46,11 @@ const Testimonials = () => {
         settings: { slidesToShow: 2 },
       },
       {
-        breakpoint: 768, // Tablets
+        breakpoint: 1024, // Tablets
         settings: { slidesToShow: 1 },
       },
       {
-        breakpoint: 480, // Phones
+        breakpoint: 768, // Phones
         settings: { slidesToShow: 1 },
       },
     ],
