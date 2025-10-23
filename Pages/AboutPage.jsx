@@ -1,4 +1,4 @@
-import aboutImg from "../../mealsnaija/src/assets/ayiSP.jpg";
+import aboutImg from "../src/assets/ayiFP.jpg";
 import { useNavigate } from "react-router-dom";
 
 const AboutPage = () => {
