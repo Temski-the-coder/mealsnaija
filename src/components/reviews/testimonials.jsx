@@ -71,7 +71,7 @@ const Testimonials = () => {
       </div>
 
       {/* SLIDER */}
-      <div className="max-w-[300px] md:max-w-6xl mx-auto overflow-hidden">
+      <div className="max-w-6xl mx-auto w-full overflow-hidden">
         <Slider {...settings}>
           {testimonialsData.map((item, index) => (
             <div key={index} className="px-3">
