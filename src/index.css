@@ -3,6 +3,16 @@
 @import "slick-carousel/slick/slick.css";
 @import "slick-carousel/slick/slick-theme.css";
 
+.slick-slide > div {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-slider {
+  overflow: hidden;
+}
+
+
 /* Custom spin speed */
 @keyframes slow-spin {
   from {
