@@ -52,6 +52,7 @@ const Testimonials = () => {
         pagination={{ clickable: true }}
         autoplay={{ delay: 4000 }}
         loop={true}
+        speed={1000}
         breakpoints={{
           0: { slidesPerView: 1 },
           640: { slidesPerView: 1 },
