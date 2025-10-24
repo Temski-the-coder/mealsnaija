@@ -10,8 +10,8 @@ const testimonialsData = [
       "MealsNaija completely changed my dining experience. The meals are top-notch!",
   },
   {
-    name: "Sarah",
-    review: "Delicious and beautifully presented! Definitely ordering again.",
+    name: "Simisola",
+    review: "Chef Ayiiii! This is the best pasta I have ever had!",
   },
   {
     name: "James",
@@ -22,8 +22,8 @@ const testimonialsData = [
     review: "The flavors were authentic and rich. Highly recommend MealsNaija!",
   },
   {
-    name: "Amaka",
-    review: "I loved how professional and responsive the team was. Great food!",
+    name: "Solomon Adegoke",
+    review: "I'm definitely booking again!! Amazing food great professionalism and wonderful personality. Thank you for making our day special!",
   },
   {
     name: "Grace",

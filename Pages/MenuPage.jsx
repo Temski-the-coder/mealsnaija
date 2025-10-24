@@ -200,13 +200,7 @@ import { useNavigate } from "react-router-dom";
       },
     ];
     
-    const categories = [
-      "All",
-      "Appetizer",
-      "Main dish",
-      "Breakfast",
-      "Dessert",
-    ];
+    const categories = []; //"All","Appetizer","Main dish","Breakfast","Dessert",
     
     export default function MenuPage() {
       const [activeCategory, setActiveCategory] = useState("All");

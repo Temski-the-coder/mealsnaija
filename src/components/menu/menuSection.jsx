@@ -57,7 +57,7 @@ const menuItems = [
   },
 ];
 
-const categories = ["All", "Appetizer", "Main dish", "Breakfast", "Dessert"];
+const categories = []; //"All", "Appetizer", "Main dish", "Breakfast", "Dessert"
 
 export default function MenuSection() {
   const [activeCategory, setActiveCategory] = useState("All");
